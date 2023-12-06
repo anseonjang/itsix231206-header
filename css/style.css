@@ -14,7 +14,7 @@ a img { border: 0; }
 
 body { font-family: 'Sarabun'; background-color: #333; } 
 
-#wrap { width: 100%; background: url("../images/bg-main.png")no-repeat center/cover; } 
+#wrap { width: 100%; background: url("../images/bg-main.png")no-repeat center/cover; min-width:1400px; } 
 
 /* ===========================================================
  header
