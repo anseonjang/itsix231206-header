@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 반응형은 필히 뷰포트 있어야함 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 이름 - itsix 웹에이젼시 반응형 웹 </title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shoutcut icon" href="./images/fv.png">
+
+    <!-- font-awesome 공식사이트 - https://fontawesome.com/ -->
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-2e45578ecf3b28ce6383d10b8c0bf4d0.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-light.css">
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/itsix.js"></script>
+</head>
+
+<body>
+    <!-- #wrap>header+main -->
+    <div id="wrap">
+        <!-- ==============================================
+            header
+        ================================================ -->
+        <header>
+            <!-- logo -->
+            <!-- h1.logo>a>img -->
+            <h1 class="logo">
+                <a href="#">
+                    <img src="./images/logo.png" alt="로고">
+                </a>
+            </h1>
+            <!-- pc menu -->
+            <!-- ul.menu>li*3>a -->
+            <ul class="menu">
+                <li><a href="#about">ABOUT ITSIX</a></li>
+                <li><a href="#work">OUR WORK</a></li>
+                <li><a href="#contactus">CONTACT US</a></li>
+            </ul>
+            <!-- mobile menu -->
+            <ul class="m_menu">
+                <li><a href="#about">ABOUT ITSIX</a></li>
+                <li><a href="#work">OUR WORK</a></li>
+                <li><a href="#contactus">CONTACT US</a></li>
+
+                <!-- x 버튼 -->
+                <li><a href="#"><i class="fa-regular fa-xmark"></i></a></li>
+
+            </ul>
+            <!-- right menu -->
+            <!-- ul.rightmenu>li>a>img -->
+            <ul class="rightmenu">
+                <li>
+                    <a href="#">
+                        <img src="./images/top-right-menu-request.png" alt="menu-request">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/top-right-menu-extranet.png" alt="menu-extranet">
+                    </a>
+                </li>
+
+                <!-- li>a>i.fa.fa-bars -->
+                <!-- 햄버거버튼 -->
+                <li><a href="#"><i class="fa-regular fa-bars"></i></a></li>
+            </ul>
+        </header>
+        <!-- ==============================================
+            main
+        ================================================ -->
+        <main>
+            <!-- section#mainImg>h2.blind{메인 이미지} -->
+            <section id="mainImg">
+                <h2 class="blind">메인 이미지</h2>
+                <!-- 배경 흐림 효과 -->
+                <!-- .main_center>ul.center_bg>li*7>a>img -->
+                <div class="main_center">
+                    <ul class="center_bg">
+                        <li><a href="#"><img src="./images/s-01-01.png" alt="배경이미지1"></a></li>
+                        <li><a href="#"><img src="./images/s-01-02.png" alt="배경이미지2"></a></li>
+                        <li><a href="#"><img src="./images/s-01-03.png" alt="배경이미지3"></a></li>
+                        <li><a href="#"><img src="./images/s-01-04.png" alt="배경이미지4"></a></li>
+                        <li><a href="#"><img src="./images/s-01-05.png" alt="배경이미지5"></a></li>
+                        <li><a href="#"><img src="./images/s-01-06.png" alt="배경이미지6"></a></li>
+                        <li><a href="#"><img src="./images/main_center.png" alt="배경이미지7"></a></li>
+                    </ul>
+                </div>
+                <!-- 육각형 애니메이션 이미지 (빨강,그레이) -->
+                <!-- .hexagon>ul>li.hexagon_g>a>img -->
+                <div class="hexagon">
+                    <ul>
+                        <li class="hexagon_g">
+                            <a href="#">
+                                <img src="./images/gray.png" alt="회색 육각형">
+                            </a>
+                        </li>
+                        <li class="hexagon_r">
+                            <a href="#">
+                                <img src="./images/red.png" alt="빨강 육각형">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
